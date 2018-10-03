@@ -1,0 +1,13 @@
+use codeup_test_db;
+delete from albums where id =6;
+delete from albums where id =12;
+delete from albums where id =13;
+delete from albums where id =14;
+delete from albums where id =17;
+delete from albums where id =18;
+delete from albums where id =19;
+delete from albums where id =20;
+delete from albums where id =25;
+delete from albums where id =29;
+delete from albums where id = 8;
+delete from albums where id = 23;
