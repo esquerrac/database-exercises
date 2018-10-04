@@ -4,4 +4,4 @@ select * from employees where last_name like 'E%' or last_name like '%e'
 order by emp_no desc;
 select * from employees
 where hire_date >'1989-12-31' and hire_date < '2000-01-01' and birth_date like '%12-25%'
-order by birth_date desc, hire_date asc;
+order by birth_date asc, hire_date desc;
